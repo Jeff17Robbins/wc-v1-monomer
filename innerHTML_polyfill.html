@@ -70,6 +70,8 @@
           (XProduct.__proto__ || Object.getPrototypeOf(XProduct)).call(this)
         );
         // Always call super first in constructor
+        
+        /*
         var shadow = _this.attachShadow({
           mode: "open"
         });
@@ -93,6 +95,9 @@
         link.className = "product-name";
         // Add the link to the shadow root.
         shadow.appendChild(link);
+        */
+        
+        
         return _this;
       }
       _createClass(XProduct, [{
